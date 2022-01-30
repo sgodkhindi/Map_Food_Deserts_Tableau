@@ -98,6 +98,6 @@ Using the excellent Dashboarding feature of Tableau, the following dashboards we
 After analyzing the data and visualizing the data the conclusion is as follows:
 1. Areas with higher levels of poverty are more likely to become Food Deserts. 
 2. Additionally, poorer counties not only have fewer Grocery stores, but they also have larger numbers of Dollar stores and Fast-Food places in proportion to their population.
-3. Due to not having adequate access to fresh food, most of the residents of these counties end up consuiming processed foods from Dollar or Discount Stores and/or Fast Food locations that are omnipresent. 
+3. Due to not having adequate access to fresh food, most of the residents of these counties end up consuiming processed foods from Dollar or Discount Stores and/or Fast Food locations that are omnipresent leading to several health issues such as cardiovascular diseases and diabetes.
 
 
