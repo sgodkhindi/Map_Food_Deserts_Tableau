@@ -1,25 +1,13 @@
-# Project3 - Mapping Food Deserts
+# Mapping Food Deserts with Tableau
 ### Group Project to Map Food Deserts in Georgia 
 
-## Project Team (The GAP Team)
-1. Ellis Purwanto - Data Visualization and Graphs
-2. Marc Avoaka - Database Design
-3. Shailesh Godkhindi - Data Analysis, Web Programming and Geo Mapping
+## Key Components
+### Jupyter Notebook
+- [Jupyter Notebook Data_Analysis ](Food_Deserts_Data_County.ipynb)
 
-## Key Deliverables
-### Jupyter Notebooks & PowerPoint Presentation
-- [County Data_Analysis ](Food_Deserts_Data_County.ipynb)
-- [Data Visualization & Graphs](ellisNotebooks/Plotly_Graphs.ipynb)
-- [PowerPoint Presentation](ellisCharts/Food_Deserts.pptx)
+### Tableau Workbook
+- [Tableau Workbook Visualizatio](Mapping_Food_Deserts.twb)
 
-
-### Database Components
-- [Database_Diagram](SQL/Food_Deserts.png)
-- [Database Schema](SQL/Schema.SQL)
-- [Database Queries](SQL/queries.sql)
-
-### Web Application + Leaflet
-- [Web Application](Webpage/app.py)
 
 ## Food Deserts
 A Food Desert is an area that has limited access to affordable and nutritious food. Food deserts tend to be inhabited by low-income residents with reduced mobility; this makes them a less attractive market for large supermarket chains. Food deserts lack suppliers of fresh foods, such as meats, fruits, and vegetables. Instead, the available foods are often processed and high in sugar and fats, which are known contributors to the proliferation of obesity in the U.S.
@@ -76,9 +64,6 @@ Finally the data from the data frames was saved in files, imported into a separa
 #### Store Counts by County
 ![Store Counts by County](Images/2StoreCounts.png)
 
-#### Percent FRL and Income Correlation
-![Percent FRL and Income](Images/3FRLvsInc.png)
-
 #### Percent FRL and Grocery Store Distribution
 ![Percent FRL Vs Grocery Store](Images/4FRLvsGrocery.png)
 
@@ -93,21 +78,6 @@ The county data was then fed to the Google Maps and Heat Maps showing the distri
 #### Fast Food Locations Heat Map
 ![Fast Food Heat Map](Images/Fast_Food_Heat_Map.png)
 
-### Web Development and Geo Mapping Using Leaflet
-### Web Development
-Using Flask, Javascript and HTML the location data for individual stores and fast food locations was displayed on the Web via an interactive map.
-[Web Application](Webpage/app.py)
-
-### Location and Geo Mapping using Leaflet
-The final step was to display these location using Leaflet and Javascript and the following layered maps were created
-#### Georgia Grocery Store Location Map
-![Georgia Grocery Store Location Map](Images/Georgia_Grocery_Store_Map.PNG)
-
-#### Georgia Dollar Store Location Map
-![Georgia Dollar Store Location Map](Images/Georgia_Dollar_Store_Map.PNG)
-
-#### Georgia Fast Food Restaurants Location Map
-![Georgia Fast Food Restaurants Location Map](Images/Georgia_FastFood_Map.PNG)
 
 ## Conclusion
 After analyzing the data and visualizing it the team has arrived at the following conclusion:
