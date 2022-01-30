@@ -1,12 +1,12 @@
-# Mapping Food Deserts with Tableau
-### Group Project to Map Food Deserts in Georgia 
+# Mapping Food Deserts using Python and Tableau
+### Personal Skill Development Project using Python and Tableau 
 
 ## Key Components
 ### Jupyter Notebook
 - [Jupyter Notebook Data_Analysis ](Food_Deserts_Data_County.ipynb)
 
 ### Tableau Workbook
-- [Tableau Workbook Visualizatio](Mapping_Food_Deserts.twb)
+- [Tableau Workbook Visualization](Mapping_Food_Deserts.twb)
 
 
 ## Food Deserts
@@ -57,6 +57,7 @@ As can be seen from the data presented below the presence of Grocery Stores is a
 ![Final_Data Frame](Images/Final_County_DataFrame.PNG)
 
 ### Data Visualization and Graphs using Tableau
+Tableau is an excellent tool for graphic visualization and to be able to tell a story using data. It's intuitive and feature rich. The following visuals and dashboards were created:
 
 #### Store Counts by County
 ![Store Counts by County](Images/2StoreCounts.png)
@@ -94,7 +95,9 @@ Using the excellent Dashboarding feature of Tableau, the following dashboards we
 ![Heat Map Comparison](Images/Dashboard_Heat_Map_Comparison.PNG)
 
 ## Conclusion
-After analyzing the data and visualizing it the team has arrived at the following conclusion:
-Areas with higher levels of poverty are more likely to become Food Deserts. Additionally, poorer counties not only have fewer Grocery stores, but they also have larger numbers of Dollar stores and Fast-Food places proportionate to their population.
+After analyzing the data and visualizing the data the conclusion is as follows:
+1. Areas with higher levels of poverty are more likely to become Food Deserts. 
+2. Additionally, poorer counties not only have fewer Grocery stores, but they also have larger numbers of Dollar stores and Fast-Food places in proportion to their population.
+3. Due to not having adequate access to fresh food, most of the residents of these counties end up consuiming processed foods from Dollar or Discount Stores and/or Fast Food locations that are omnipresent. 
 
 
