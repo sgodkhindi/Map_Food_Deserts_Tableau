@@ -37,29 +37,26 @@ These 15 counties are as follows:
 16. Wilkes County
 
 ### Data Analysis Preparation
-Once these15 counties were identified the team took the following steps to get all the source data together:
+Once these 15 counties were identified the team took the following steps to get all the source data together:
 1. List all the 15 counties along with the - Per Capita Income and Percent_FRL
 2. Locate the Latitude and Longitude of the County Courthouse for each county. Usually the Courthouse is the centermost point in the county.
 3. Create an input file with all this information.
 
 ### Getting GeoLocation Info using API
-The next step in the process was to use API calls to obtain GeoLocation for Grocery Stores, Dollar Stores and Fast Food Stores
+The next step in the process was to use API calls to obtain GeoLocation for Grocery Stores, Dollar Stores and Fast Food Stores.
 1. We decided use Foursquare Places API to get this info - https://developer.foursquare.com/reference/place-search
 2. The locations that were pulled had to be within 6 miles of the County Latitude and Longitude.
 3. For Grocery Stores chosen had to be part of a chain as they have the infrastructure and the inventory to service a large population.
 
-### Data Summarization for Analysis
-The next step was to get all the data summarized by county. This was done using Panda and Python Code. 
+All of the above analysis was done using Pandas and Python Code. 
 
-This data was stored in the PostgeSQL database for analysis as well as JSON files.
+### Data Summarization for Analysis
+Using Pandas and Python Code, the data summarized by county and stored into CSV Files for Visualization in Tableau.
 
 As can be seen from the data presented below the presence of Grocery Stores is adequate only in certain counties with higher income
 ![Final_Data Frame](Images/Final_County_DataFrame.PNG)
 
-### Data Visualization and Graphs
-Finally the data from the data frames was saved in files, imported into a separate Jupyter Notebook and using Plotly, following graphs were created:
-#### Population and Per-capita Income
-![Population Vs Income](Images/1PopVsInc.png)
+### Data Visualization and Graphs using Tableau
 
 #### Store Counts by County
 ![Store Counts by County](Images/2StoreCounts.png)
@@ -67,8 +64,14 @@ Finally the data from the data frames was saved in files, imported into a separa
 #### Percent FRL and Grocery Store Distribution
 ![Percent FRL Vs Grocery Store](Images/4FRLvsGrocery.png)
 
+#### Percent FRL and Income Correlation
+![Percent FRL and Income](Images/3FRLvsInc.png)
+
+#### Percent FRL and Grocery Store Distribution
+![Percent FRL Vs Grocery Store](Images/4FRLvsGrocery.png)
+
 ### Heat Maps
-The county data was then fed to the Google Maps and Heat Maps showing the distribution of Grocery Stores, Dollar Stores and Fast Food Locations was done.
+Using the Geolocation Data for the Counties and the Stores, Heat Maps showing the distribution of Grocery Stores, Dollar Stores and Fast Food Locations was created.
 #### Grocery Store Heat Map
 ![Grocery Store Heat Map](Images/Grocery_Store_Heat_Map.png)
 
@@ -78,6 +81,17 @@ The county data was then fed to the Google Maps and Heat Maps showing the distri
 #### Fast Food Locations Heat Map
 ![Fast Food Heat Map](Images/Fast_Food_Heat_Map.png)
 
+### Dashboards
+Using the excellent Dashboarding feature of Tableau, the following dashboards were created:
+
+#### Incomes and Percent FRL Analysis
+![Incomes and Percent FRL Analysis](Images/Dashboard_Income_Percent_FRL.PNG)
+
+#### Percent FRL and Grocery Stores Analysis
+![Percent FRL and Grocery Stores Analysis](Images/Dashboard_Grocery_Store_Percent_FRL.PNG)
+
+#### Heat Map Comparison Grocery Stores vs Dollar Stores vs Fast Food Locations
+![Heat Map Comparison](Images/Dashboard_Heat_Map_Comparison.PNG)
 
 ## Conclusion
 After analyzing the data and visualizing it the team has arrived at the following conclusion:
