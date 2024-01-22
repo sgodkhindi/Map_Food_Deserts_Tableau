@@ -1,5 +1,5 @@
 # Mapping Food Deserts using Python and Tableau
-### Personal Skill Development Project using Python and Tableau 
+#### Identify locations that have very few or no grocery stores serving a disproportionately large population a.k.a Food Deserts and determine the factors that contribute towards their cause and existence.
 
 ## Key Components
 ### Jupyter Notebook
