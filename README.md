@@ -16,7 +16,7 @@ A Food Desert is an area that has limited access to affordable and nutritious fo
 ### Beginning the data-gathering process
 We found that the Percentage of Free or Reduced Lunches (Percent_FRL) at school is a strong indicator of poverty in an area: https://nces.ed.gov/blogs/nces/post/free-or-reduced-price-lunch-a-proxy-for-poverty
 
-Using this metric and the Per Capita Income data from https://fred.stlouisfed.org/release/tables?eid=266512&rid=175, the team identified 15 counties in GA.
+Using this metric and the Per Capita Income data from https://fred.stlouisfed.org/release/tables?eid=266512&rid=175, the team identified 16 counties in GA.
 
 These 16 counties are as follows:
 1. Baldwin County
