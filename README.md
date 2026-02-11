@@ -37,8 +37,8 @@ These 16 counties are as follows:
 16. Wilkes County
 
 ### Data Analysis Preparation
-Once these 15 counties were identified the team took the following steps to get all the source data together:
-1. List all the 15 counties along with the - Per Capita Income and Percent_FRL
+Once these 16 counties were identified the team took the following steps to get all the source data together:
+1. List all the 16 counties along with the - Per Capita Income and Percent_FRL
 2. Locate the Latitude and Longitude of the County Courthouse for each county. Usually the Courthouse is the centermost point in the county.
 3. Create an input file with all this information.
 
