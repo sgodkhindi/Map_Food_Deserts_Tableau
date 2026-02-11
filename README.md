@@ -18,7 +18,7 @@ We found that the Percentage of Free or Reduced Lunches (Percent_FRL) at school 
 
 Using this metric and the Per Capita Income data from https://fred.stlouisfed.org/release/tables?eid=266512&rid=175, the team identified 15 counties in GA.
 
-These 15 counties are as follows:
+These 16 counties are as follows:
 1. Baldwin County
 2. Clayton County
 3. Cobb County
